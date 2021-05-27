@@ -53,7 +53,7 @@ public class BookDAO {
 		
 		 
 		try {
-			 stmt=con.createStatement();
+			  stmt=con.createStatement();
 			
 			
 			String sql1="select title,author,price from book";
